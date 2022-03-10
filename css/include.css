@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#header{
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+}
+
+.hWrap{}
+.logo{
+    margin-left: 100px;
+    padding-top: 16px;
+    float: left;
+}
+
+.gnb{
+    margin-right: 100px;
+    text-align: center;
+}
+.gnb li{
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-right: 60px;
+}
+.gnb li a{color: #999;}
+.gnb li:hover a{color: #344452;}
+.gnb li a{transition: color 0.4s;}
